@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3wjleirgqyla"]
+
+[ext_resource type="Script" path="res://PlayButton.gd" id="1_sm28a"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="PlayButton" type="Button" parent="."]
+offset_left = 414.0
+offset_top = 107.0
+offset_right = 687.0
+offset_bottom = 257.0
+text = "JUGAR"
+script = ExtResource("1_sm28a")
+
+[node name="QuitButton" type="Button" parent="."]
+offset_left = 417.0
+offset_top = 331.0
+offset_right = 690.0
+offset_bottom = 481.0
+text = "SALIR"
