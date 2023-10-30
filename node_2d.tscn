@@ -5,10 +5,10 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="PlayButton" type="Button" parent="."]
-offset_left = 414.0
-offset_top = 107.0
-offset_right = 687.0
-offset_bottom = 257.0
+offset_left = 419.0
+offset_top = 145.0
+offset_right = 692.0
+offset_bottom = 295.0
 text = "JUGAR"
 script = ExtResource("1_sm28a")
 
@@ -18,3 +18,6 @@ offset_top = 331.0
 offset_right = 690.0
 offset_bottom = 481.0
 text = "SALIR"
+
+[connection signal="pressed" from="PlayButton" to="PlayButton" method="_on_pressed"]
+[connection signal="pressed" from="QuitButton" to="PlayButton" method="_on_quit_button_pressed"]

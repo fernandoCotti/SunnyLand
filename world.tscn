@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://brhp70p6q4e"]
+
+[node name="World" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 57.0
+offset_top = 45.0
+offset_right = 192.0
+offset_bottom = 71.0
+text = "Estás jugando xd.
+"
